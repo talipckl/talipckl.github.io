@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+      *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          font-size: 0.7rem;
+         
+      }
+      .center{
+        text-align: center;
+        background-color: rgb(42, 43, 43);
+        color: white;
+      }
+      img{
+        width: 200px;
+        border: 1px solid white;
+      }
+  </style>
+  <body>
+    <div class="container-sm">
+        <div class="row">
+          <div class="col-2">
+           
+          </div>
+          <div class="center col-8">
+            <h1>React Router DOM</h1>
+            <p>bir web uygulamasında dinamik yönlendirme uygulamanıza olanak tanır. Yönlendirmenin çalışan bir uygulamanın dışındaki bir konfigürasyonda işlendiği geleneksel yönlendirme mimarisinden farklı olarak,
+                React Router DOM, uygulama ve platformun ihtiyaçlarına göre bileşen tabanlı yönlendirmeyi kolaylaştırır.</p>
+                <br>
+                <h3>Kurulum...</h3>
+                <p> projemizde Terminale şu kodu Yazıyoruz;</p>
+                <p> npm install react-router-dom@6</p>
+                <img src="./kurulum.png" alt="">
+                <br>
+                <br>
+                <h4>Kurulum bittikten sonra import işlemine geçiyoruz</h4>
+                <img src="./import.PNG" alt="">
+                <br>
+                <br>
+
+                <h4>Componentler arası geçişler için sağlaycağımız yapıları oluşturuyoruz.</h4>
+                <br>
+                <img src="./render.PNG" alt="">
+                <br>
+                <br>
+                <h4>Şuana Kadar yaptığımız herşey App Scriptinin içinde  bulunuyor</h4>
+
+                <img src="./yapı.PNG" alt="">
+                <br>
+                <br>
+                <h5>Geçişler için kullanmamız gereken link </h5>
+                <p> {Link} etiketini import ettikten sonra yönlendirmek istediğimiz sayfayı Link formatında yazıyoruz..  </p>
+                <img src="./link.PNG" alt="">
+                <br>
+                <br>
+                <br>
+
+          </div>
+          <div class="col-2">
+           
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Core theme JS-->
+       <script src="js/scripts.js"></script>
+       
+       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
